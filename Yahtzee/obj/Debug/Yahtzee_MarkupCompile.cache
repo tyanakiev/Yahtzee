@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 F:\Workspace\C#\Yahtzee\Yahtzee\App.xaml
-11151548125
+3437389192
 
-91744296092
-13738642453
-MainWindow.xaml;
+91108526410
+14-1787462521
+SinglePlayerWindow.xaml;TwoPlayersWindow.xaml;MenuWindow.xaml;
 
 False
 

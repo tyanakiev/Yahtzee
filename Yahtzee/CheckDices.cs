@@ -30,19 +30,7 @@ namespace Yahtzee
         /// The dices.
         /// </summary>
         private int[] dices;
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="CheckDices"/> class.
-        /// </summary>
-        /// <param name="dices">
-        /// The dices.
-        /// </param>
-        public void AssignDices(int[] dices)
-        {
-            //this.Dices = (int[])dices.Clone();
-            this.Dices = dices;
-        }
-
+        
         /// <summary>
         /// Gets or sets the dices.
         /// </summary>
@@ -59,6 +47,17 @@ namespace Yahtzee
             }
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CheckDices"/> class.
+        /// </summary>
+        /// <param name="dices">
+        /// The dices.
+        /// </param>
+        public void AssignDices(int[] dices)
+        {
+            this.Dices = dices;
+        }
+        
         /// <summary>
         /// The calculate.
         /// </summary>
@@ -150,7 +149,7 @@ namespace Yahtzee
         }
 
         /// <summary>
-        /// The check yahtzee.
+        /// The check Yahtzee.
         /// </summary>
         private void CheckYahtzee()
         {
@@ -179,7 +178,7 @@ namespace Yahtzee
         /// </summary>
         private void CheckSmallStraight()
         {
-            if (this.Dices.Distinct().Count() == 4)
+            if (this.Dices.Distinct().Count() > 3)
             {
                 if (this.CheckForConsecutiveNumbers() == 3)
                 {
@@ -269,7 +268,8 @@ namespace Yahtzee
                         count2++;
                     }
                 }
-                if (count1 > 2 || count2 > 2 || count3 > 3)
+
+                if (count1 > 2 || count2 > 2 || count3 > 2)
                 {
                     this.combinationsFind.Add("ThreeOfAKind", this.GetSumOfAllDice());
                 }
@@ -288,7 +288,7 @@ namespace Yahtzee
         private int GetSumOfSpecificDice(int diceNumber)
         {
             int sum = 0;
-            foreach (int dice in Dices)
+            foreach (int dice in this.Dices)
             {
                 if (dice == diceNumber)
                 {
@@ -308,7 +308,7 @@ namespace Yahtzee
         private int GetSumOfAllDice()
         {
             int sum = 0;
-            foreach (int dice in Dices)
+            foreach (int dice in this.Dices)
             {
                     sum += dice;
             }

@@ -2,8 +2,6 @@ F:\Workspace\C#\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe.config
 F:\Workspace\C#\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe
 F:\Workspace\C#\Yahtzee\Yahtzee\bin\Debug\Yahtzee.pdb
 F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csprojResolveAssemblyReference.cache
-F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\MainWindow.baml
-F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\MainWindow.g.cs
 F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\App.g.cs
 F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\Yahtzee_MarkupCompile.cache
 F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\Yahtzee.g.resources
@@ -11,3 +9,10 @@ F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Properties.Resources.resources
 F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csproj.GenerateResource.Cache
 F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\Yahtzee.exe
 F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\Yahtzee.pdb
+F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\MenuWindow.g.cs
+F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\Yahtzee_MarkupCompile.lref
+F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\MenuWindow.baml
+F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\TwoPlayersWindow.baml
+F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\TwoPlayersWindow.g.cs
+F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\SinglePlayerWindow.g.cs
+F:\Workspace\C#\Yahtzee\Yahtzee\obj\Debug\SinglePlayerWindow.baml

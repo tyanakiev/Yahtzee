@@ -1,0 +1,35 @@
+﻿<Window x:Class="Yahtzee.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Yahtzee"
+        mc:Ignorable="d"
+        Title="Yahtzee" Height="600" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="static/yatzy-background.jpg"/>
+        </Grid.Background>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="303" VerticalAlignment="Top" Width="476" Margin="198,-9,0,0"  Source="static/yahtzeelogo.png"/>
+        <Button x:Name="btnSinglePlayer" Content="Single Player" Width="120" Height="30" Margin="330,294,0,0" Background="#FF0AB2E4" VerticalAlignment="Top" HorizontalAlignment="Left" Click="BtnSinglePlayerClick">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnTwoPlayers" Content="Two Players" Width="120" Height="30" Margin="330,346,0,0" Background="#FF0AB2E4" VerticalAlignment="Top" HorizontalAlignment="Left" Click="BtnTwoPlayersClick">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnVsComputer" Content="vs Computer" Width="120" Height="30" Margin="330,398,0,0"  Background="#FF0AB2E4" VerticalAlignment="Top" HorizontalAlignment="Left" Click="BtnVsComputerClick">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnExit" Content="Exit"  Width="120" Height="30" Margin="330,448,0,0" Background="#FF0AB2E4" VerticalAlignment="Top" HorizontalAlignment="Left" Click="BtnExitClick">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+    </Grid>
+</Window>

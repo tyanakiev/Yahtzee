@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="TurnsMachine.cs" company="NWTC">
+// <copyright file="TurnMachine.cs" company="NWTC">
 //   Copyright
 // </copyright>
 // <summary>
